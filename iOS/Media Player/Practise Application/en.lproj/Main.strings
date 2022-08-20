@@ -1,0 +1,11 @@
+
+/* Class = "UIButton"; configuration.title = "Share"; ObjectID = "1Qd-eg-kN4"; */
+"1Qd-eg-kN4.configuration.title" = "Share";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1Qd-eg-kN4"; */
+"1Qd-eg-kN4.normalTitle" = "分享";
+
+"bNM-0g-AWE.text" = "測試";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6yO-w9-jBD"; */
+"6yO-w9-jBD.text" = "Label";
