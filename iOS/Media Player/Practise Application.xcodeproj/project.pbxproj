@@ -16,6 +16,7 @@
 		6F8CF9F828B066EF0059181B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CF9F728B066EF0059181B /* test.png */; };
 		6F8CFA2928B082150059181B /* demo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CFA2828B082150059181B /* demo.mp3 */; };
 		6F8CFA2B28B0C6490059181B /* demo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CFA2A28B0C6490059181B /* demo.jpeg */; };
+		6F8CFA2D28B1B57B0059181B /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CFA2C28B1B57B0059181B /* CompassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6F8CFA0428B06B9D0059181B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		6F8CFA2828B082150059181B /* demo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo.mp3; sourceTree = "<group>"; };
 		6F8CFA2A28B0C6490059181B /* demo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpeg; sourceTree = "<group>"; };
+		6F8CFA2C28B1B57B0059181B /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompassViewController.swift; path = "Practise Application/CompassViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				6F8CFA2528B077260059181B /* Music */,
 				6F8CF9E328B063140059181B /* AppDelegate.swift */,
+				6F8CFA2C28B1B57B0059181B /* CompassViewController.swift */,
 				6F8CF9E528B063140059181B /* SceneDelegate.swift */,
 				6F8CF9E728B063140059181B /* ViewController.swift */,
 				6F8CF9E928B063140059181B /* Main.storyboard */,
@@ -165,6 +168,7 @@
 				6F8CF9E828B063140059181B /* ViewController.swift in Sources */,
 				6F8CF9E428B063140059181B /* AppDelegate.swift in Sources */,
 				6F8CF9E628B063140059181B /* SceneDelegate.swift in Sources */,
+				6F8CFA2D28B1B57B0059181B /* CompassViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

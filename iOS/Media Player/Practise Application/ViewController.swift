@@ -129,10 +129,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnStopClick(_ sender: Any) {
-        toggleStop()
-    }
-    
-    @objc private func toggleStop() -> MPRemoteCommandHandlerStatus {
         btnPlay.setBackgroundImage(UIImage(systemName: !audioPlayer.isPlaying ? "pause" : "play.circle.fill"), for: .normal)
         
         if audioPlayer.isPlaying {
@@ -148,12 +144,16 @@ class ViewController: UIViewController {
         if progressTimer == nil {
             progressTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(progressTimerEvent), userInfo: nil, repeats: true)
         }
-        
+    }
+    
+    @objc private func toggleStop() -> MPRemoteCommandHandlerStatus {
+        btnStopClick(0)
         return .success
     }
     
     @IBAction func musicProgressChange(_ sender: Any) {
         audioPlayer.currentTime = (Double(musicProgress.value) * audioPlayer.duration / 100)
+        updateMediaInfo()
     }
     
     @IBAction func volumeSlicerChange(_ sender: Any) {
@@ -178,7 +178,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnBackwardClick(_ sender: Any) {
-        
+        performSegue(withIdentifier: "goCompass", sender: sender)
     }
 }
 
