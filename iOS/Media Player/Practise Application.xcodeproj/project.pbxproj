@@ -13,7 +13,6 @@
 		6F8CF9EB28B063140059181B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CF9E928B063140059181B /* Main.storyboard */; };
 		6F8CF9ED28B063160059181B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CF9EC28B063160059181B /* Assets.xcassets */; };
 		6F8CF9F028B063160059181B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CF9EE28B063160059181B /* LaunchScreen.storyboard */; };
-		6F8CF9F828B066EF0059181B /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CF9F728B066EF0059181B /* test.png */; };
 		6F8CFA2928B082150059181B /* demo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CFA2828B082150059181B /* demo.mp3 */; };
 		6F8CFA2B28B0C6490059181B /* demo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CFA2A28B0C6490059181B /* demo.jpeg */; };
 		6F8CFA2D28B1B57B0059181B /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CFA2C28B1B57B0059181B /* CompassViewController.swift */; };
@@ -28,7 +27,6 @@
 		6F8CF9EC28B063160059181B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8CF9EF28B063160059181B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8CF9F128B063160059181B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F8CF9F728B066EF0059181B /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		6F8CF9FA28B06A620059181B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		6F8CFA0028B06B000059181B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		6F8CFA0428B06B9D0059181B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 				6F8CF9EC28B063160059181B /* Assets.xcassets */,
 				6F8CF9EE28B063160059181B /* LaunchScreen.storyboard */,
 				6F8CF9F128B063160059181B /* Info.plist */,
-				6F8CF9F728B066EF0059181B /* test.png */,
 				6F8CFA2A28B0C6490059181B /* demo.jpeg */,
 			);
 			path = "Practise Application";
@@ -154,7 +151,6 @@
 				6F8CF9ED28B063160059181B /* Assets.xcassets in Resources */,
 				6F8CF9EB28B063140059181B /* Main.storyboard in Resources */,
 				6F8CFA2928B082150059181B /* demo.mp3 in Resources */,
-				6F8CF9F828B066EF0059181B /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
